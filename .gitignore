@@ -1,0 +1,20 @@
+# Vivado generated files
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+xsim.dir/
+.Xil/
+
+# Simulation outputs
+sim_*
+webtalk*.xml
+
+# Backup files
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
