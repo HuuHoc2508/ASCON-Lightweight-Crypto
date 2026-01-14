@@ -4,13 +4,13 @@
 [![Vivado](https://img.shields.io/badge/Vivado-2024.2-blue)](https://www.xilinx.com/products/design-tools/vivado.html)
 [![Verification](https://img.shields.io/badge/Simulation-PASSED-green)]()
 
-> 🏆 **Second Prize - UIT IC Design Competition 2025**
+> **Second Prize - UIT IC Design Competition 2025**
 
 A highly optimized RTL implementation of the ASCON authenticated encryption cipher, designed for integration into RISC-V 32-bit SoCs for IoT applications.
 
 ---
 
-## 📊 Performance
+## Performance
 
 | Metric | Value |
 |--------|-------|
@@ -32,7 +32,7 @@ A highly optimized RTL implementation of the ASCON authenticated encryption ciph
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@ A highly optimized RTL implementation of the ASCON authenticated encryption ciph
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ASCON/
@@ -82,7 +82,7 @@ ASCON/
 
 ---
 
-## 🔧 Supported Variants
+## Supported Variants
 
 | Variant | Key Size | Rate | Rounds (a/b) | IV |
 |---------|----------|------|--------------|-----|
@@ -92,7 +92,7 @@ ASCON/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -135,7 +135,7 @@ xsim sim_ascon -R
 
 ---
 
-## 🔌 RISC-V Integration
+## RISC-V Integration
 
 The accelerator includes a Wishbone B4 slave interface (`ascon_wb.v`) for easy integration with RISC-V cores.
 
@@ -177,18 +177,18 @@ void ascon_encrypt(uint32_t *key, uint32_t *nonce, uint32_t *pt) {
 
 ---
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👥 Authors
+## Authors
 
-- **Luong Trung Duong** - RTL Design & Optimization
-- **ASIC LAB - UIT** - System Integration
+- **Nguyen Huu Hoc & Nguyen Dinh Le Manh** - RTL Design & Optimization
+- **Luong Trung Duong** - System Integration
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - ASCON Algorithm: [https://ascon.iaik.tugraz.at/](https://ascon.iaik.tugraz.at/)
 - RISC-V Steel: [https://github.com/riscv-steel](https://github.com/riscv-steel)
