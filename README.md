@@ -36,12 +36,12 @@ A highly optimized RTL implementation of the ASCON authenticated encryption ciph
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                         ascon_top                                │
+│                         ascon_top                               │
 │  ┌─────────────┐   ┌──────────────────────┐   ┌──────────────┐  │
-│  │  FIFOs &    │   │  ascon_core_optimized │   │   FIFOs &    │  │
+│  │  FIFOs &    │   │  ascon_core_optimized│   │   FIFOs &    │  │
 │  │  Assemblers │──▶│   (Unified I/O)      │──▶│   Splitters  │  │
 │  └─────────────┘   └──────────────────────┘   └──────────────┘  │
-│                              │                                   │
+│                              │                                  │
 │                    ┌─────────┴─────────┐                        │
 │                    │ ascon_permutation │                        │
 │                    │  (Iterative 1R/C) │                        │
